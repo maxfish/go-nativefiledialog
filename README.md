@@ -7,4 +7,4 @@ go test -v
 ```
 
 Source code should be (reasonably) portable.
-Only Windows 64-bit binaries for now (PRs welcome).
+Only Windows/Linux amd64 binaries for now (PRs welcome).

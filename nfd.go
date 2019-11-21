@@ -1,7 +1,6 @@
 package nfd
 
-// #cgo LDFLAGS: -L${SRCDIR}
-// #cgo windows,amd64 LDFLAGS: -lnfd
+// #cgo LDFLAGS: -L${SRCDIR} -lnfd
 // #cgo windows LDFLAGS: -lole32 -luuid
 // #include <stdlib.h>
 // #include "nfd.h"
