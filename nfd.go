@@ -1,7 +1,8 @@
 package nfd
 
-// #cgo LDFLAGS: -L${SRCDIR} -lnfd
-// #cgo windows LDFLAGS: -lole32 -luuid
+// #cgo windows LDFLAGS: -L${SRCDIR}/windows -lnfd -lole32 -luuid
+// #cgo darwin LDFLAGS: -L${SRCDIR}/darwin -lnfd -framework AppKit
+// #cgo linux LDFLAGS: -L${SRCDIR}/linux -lnfd
 // #include <stdlib.h>
 // #include "nfd.h"
 import "C"
