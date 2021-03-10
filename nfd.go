@@ -3,6 +3,7 @@ package nfd
 // #cgo windows LDFLAGS: -L${SRCDIR}/windows -lnfd -lole32 -luuid
 // #cgo darwin LDFLAGS: -L${SRCDIR}/darwin -lnfd -framework AppKit
 // #cgo linux LDFLAGS: -L${SRCDIR}/linux -lnfd
+// #cgo linux pkg-config: gtk+-3.0
 // #include <stdlib.h>
 // #include "nfd.h"
 import "C"
