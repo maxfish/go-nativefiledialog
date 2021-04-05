@@ -1,3 +1,3 @@
-module github.com/donotnoot/go-nativefiledialog
+module github.com/maxfish/go-nativefiledialog
 
 go 1.16
